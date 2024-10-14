@@ -1,10 +1,11 @@
+#include<iostream>
 
 using namespace std;
 
 int main() {
-    string statusMessage;
-    cout << "Enter your status message: ";
-    getline(cin, statusMessage);
-    cout << "Status: " << statusMessage << endl;
+   int rollNum;
+    cout << "Enter your roll number: ";
+   cin>>rollNum;
+    cout<<"So, Your Roll number is: "<<rollNum;
     return 0;
 }
